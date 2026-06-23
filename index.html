@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Queen Cafe - Smile in every bite. Bhubaneswar's best cozy cafe for burgers, pizza, cold coffee & more. Located near Kalinga Stadium, BBSR.">
+    <meta name="keywords" content="Queen Cafe, Bhubaneswar cafe, coffee shop, burgers, pizza, cold coffee, Kalinga Stadium">
+    <title>Queen Café — Smile in Every Bite | Bhubaneswar</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ======================== NAVBAR ======================== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home" id="navBrand">
+                <span class="brand-crown">👑</span>
+                <span class="brand-text">Queen Café</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navToggle">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home" id="navHome">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" id="navAbout">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu" id="navMenu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features" id="navFeatures">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" id="navGallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials" id="navTestimonials">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" id="navContact">Contact</a></li>
+                </ul>
+                <a href="tel:+918926311399" class="btn btn-cta ms-lg-3" id="navCTA">
+                    <i class="bi bi-telephone-fill"></i> Order Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======================== HERO SECTION ======================== -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container hero-content">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7">
+                    <div class="hero-badge" id="heroBadge">
+                        <i class="bi bi-star-fill"></i> Rated 5.0 — Bhubaneswar's Favorite
+                    </div>
+                    <h1 class="hero-title" id="heroTitle">
+                        Smile in<br>
+                        <span class="hero-highlight">Every Bite</span>
+                    </h1>
+                    <p class="hero-subtitle" id="heroSubtitle">
+                        Discover the perfect blend of flavors at Queen Café. From our legendary cold coffee to mouth-watering burgers — every dish is crafted with love.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#menu" class="btn btn-hero-primary" id="heroExploreCTA">
+                            <i class="bi bi-cup-hot-fill"></i> Explore Menu
+                        </a>
+                        <a href="#contact" class="btn btn-hero-secondary" id="heroVisitCTA">
+                            <i class="bi bi-geo-alt-fill"></i> Visit Us
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item" id="heroStat1">
+                            <span class="stat-number">5.0</span>
+                            <span class="stat-label">Google Rating</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item" id="heroStat2">
+                            <span class="stat-number">29+</span>
+                            <span class="stat-label">Happy Reviews</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item" id="heroStat3">
+                            <span class="stat-number">₹1–200</span>
+                            <span class="stat-label">Affordable Range</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <div class="hero-image-wrapper" id="heroImageWrapper">
+                        <div class="hero-image-glow"></div>
+                        <img src="images/real-cold-coffee.png" alt="Queen Cafe's signature cold coffee" class="hero-image" id="heroImage">
+                        <div class="floating-badge badge-top" id="floatingBadge1">
+                            <i class="bi bi-heart-fill"></i> Best Cold Coffee in Town
+                        </div>
+                        <div class="floating-badge badge-bottom" id="floatingBadge2">
+                            <span class="price-tag">Starting ₹40</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator" id="heroScrollIndicator">
+            <a href="#about">
+                <div class="scroll-mouse">
+                    <div class="scroll-dot"></div>
+                </div>
+                <span>Scroll Down</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ======================== ABOUT SECTION ======================== -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-image-grid" id="aboutImageGrid">
+                        <div class="about-img-main">
+                            <img src="images/real-storefront.png" alt="Queen Cafe storefront" class="img-fluid rounded-4">
+                        </div>
+                        <div class="about-img-float" id="aboutImgFloat">
+                            <img src="images/real-neon-sign.png" alt="Queen Cafe neon sign" class="img-fluid rounded-4">
+                        </div>
+                        <div class="about-experience-badge" id="aboutExpBadge">
+                            <span class="exp-number">👑</span>
+                            <span class="exp-text">Premium<br>Quality</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-label" id="aboutLabel">Our Story</div>
+                    <h2 class="section-title" id="aboutTitle">A Cozy Corner<br>for <span class="text-accent">Food Lovers</span></h2>
+                    <p class="section-description" id="aboutDesc">
+                        Nestled in the vibrant Kalinga Market, Queen Café is your go-to destination for a perfect food experience. Our small and cozy space is designed to make you feel at home while you indulge in our carefully crafted menu.
+                    </p>
+                    <p class="section-description" id="aboutDesc2">
+                        From sizzling burgers to our town-famous cold coffee, every item is prepared with the freshest ingredients and a touch of love. Whether you're catching up with friends or grabbing a quick bite, Queen Café promises a smile in every bite.
+                    </p>
+                    <div class="about-features-row">
+                        <div class="about-feature" id="aboutFeature1">
+                            <div class="feature-icon-sm"><i class="bi bi-clock-fill"></i></div>
+                            <div>
+                                <strong>Open Daily</strong>
+                                <span>7:00 AM onwards</span>
+                            </div>
+                        </div>
+                        <div class="about-feature" id="aboutFeature2">
+                            <div class="feature-icon-sm"><i class="bi bi-shop"></i></div>
+                            <div>
+                                <strong>Dine-in & Takeaway</strong>
+                                <span>Your choice</span>
+                            </div>
+                        </div>
+                        <div class="about-feature" id="aboutFeature3">
+                            <div class="feature-icon-sm"><i class="bi bi-truck"></i></div>
+                            <div>
+                                <strong>Online Orders</strong>
+                                <span>Swiggy & Zomato</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== MENU SECTION ======================== -->
+    <section id="menu" class="menu-section section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label" id="menuLabel">Our Menu</div>
+                <h2 class="section-title" id="menuTitle">Handcrafted with <span class="text-accent">Love</span></h2>
+                <p class="section-subtitle" id="menuSubtitle">Every dish tells a story of passion, quality, and the finest ingredients</p>
+            </div>
+
+            <!-- Menu Filter -->
+            <div class="menu-filter text-center mb-5" id="menuFilter">
+                <button class="filter-btn active" data-filter="all" id="filterAll">All</button>
+                <button class="filter-btn" data-filter="beverages" id="filterBeverages">Beverages</button>
+                <button class="filter-btn" data-filter="burgers" id="filterBurgers">Burgers</button>
+                <button class="filter-btn" data-filter="snacks" id="filterSnacks">Snacks</button>
+                <button class="filter-btn" data-filter="meals" id="filterMeals">Meals</button>
+            </div>
+
+            <div class="row g-4" id="menuGrid">
+                <!-- Menu Item 1 -->
+                <div class="col-lg-4 col-md-6 menu-item" data-category="beverages" id="menuItem1">
+                    <div class="menu-card">
+                        <div class="menu-card-img">
+                            <img src="images/real-cold-coffee.png" alt="Cold Coffee with ice cream">
+                            <div class="menu-card-badge">Bestseller</div>
+                            <div class="menu-card-price">₹80</div>
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Cold Coffee Deluxe</h3>
+                            <p>Rich cold coffee topped with whipped cream, chocolate sauce & choco chips</p>
+                            <div class="menu-card-meta">
+                                <span><i class="bi bi-star-fill"></i> 5.0</span>
+                                <span><i class="bi bi-clock"></i> 5 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="col-lg-4 col-md-6 menu-item" data-category="burgers" id="menuItem2">
+                    <div class="menu-card">
+                        <div class="menu-card-img">
+                            <img src="images/real-burger.png" alt="Classic Queen Burger">
+                            <div class="menu-card-badge hot">Popular</div>
+                            <div class="menu-card-price">₹120</div>
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Queen Special Burger</h3>
+                            <p>Loaded burger with crispy patty, cheese, onions, fresh veggies & secret sauce</p>
+                            <div class="menu-card-meta">
+                                <span><i class="bi bi-star-fill"></i> 5.0</span>
+                                <span><i class="bi bi-clock"></i> 10 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="col-lg-4 col-md-6 menu-item" data-category="meals" id="menuItem3">
+                    <div class="menu-card">
+                        <div class="menu-card-img">
+                            <img src="images/cheese-pizza.png" alt="Cheese Burst Pizza">
+                            <div class="menu-card-badge">Chef's Pick</div>
+                            <div class="menu-card-price">₹150</div>
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Cheese Burst Pizza</h3>
+                            <p>Wood-fired style pizza with extra mozzarella, basil & tangy tomato sauce</p>
+                            <div class="menu-card-meta">
+                                <span><i class="bi bi-star-fill"></i> 4.9</span>
+                                <span><i class="bi bi-clock"></i> 15 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="col-lg-4 col-md-6 menu-item" data-category="snacks" id="menuItem4">
+                    <div class="menu-card">
+                        <div class="menu-card-img">
+                            <img src="images/real-noodles.png" alt="Loaded Maggi Noodles">
+                            <div class="menu-card-badge hot">Comfort Food</div>
+                            <div class="menu-card-price">₹60</div>
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Loaded Maggi</h3>
+                            <p>Classic Maggi noodles loaded with extra veggies, cheese & special spices</p>
+                            <div class="menu-card-meta">
+                                <span><i class="bi bi-star-fill"></i> 4.8</span>
+                                <span><i class="bi bi-clock"></i> 8 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="col-lg-4 col-md-6 menu-item" data-category="beverages" id="menuItem5">
+                    <div class="menu-card">
+                        <div class="menu-card-img">
+                            <img src="images/real-neon-sign.png" alt="Queen Cafe Tea & Beverages">
+                            <div class="menu-card-price">₹40</div>
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Herbal Tea Collection</h3>
+                            <p>Refreshing herbal teas including green tea, masala chai & specialty blends</p>
+                            <div class="menu-card-meta">
+                                <span><i class="bi bi-star-fill"></i> 4.7</span>
+                                <span><i class="bi bi-clock"></i> 3 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="col-lg-4 col-md-6 menu-item" data-category="snacks" id="menuItem6">
+                    <div class="menu-card">
+                        <div class="menu-card-img">
+                            <img src="images/real-fries.png" alt="Crispy Fries with ketchup">
+                            <div class="menu-card-badge">Value Deal</div>
+                            <div class="menu-card-price">₹70</div>
+                        </div>
+                        <div class="menu-card-body">
+                            <h3>Crispy Fries & Sides</h3>
+                            <p>Golden crispy french fries with choice of dips — cheesy, tangy or spicy</p>
+                            <div class="menu-card-meta">
+                                <span><i class="bi bi-star-fill"></i> 4.8</span>
+                                <span><i class="bi bi-clock"></i> 7 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== FEATURES SECTION ======================== -->
+    <section id="features" class="features-section section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label" id="featuresLabel">Why Choose Us</div>
+                <h2 class="section-title" id="featuresTitle">What Makes Us <span class="text-accent">Special</span></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" id="featureCard1">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                        </div>
+                        <h3>Fresh Ingredients</h3>
+                        <p>Every dish is prepared with handpicked, fresh ingredients sourced daily for maximum flavor.</p>
+                        <div class="feature-glow"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" id="featureCard2">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-wallet2"></i>
+                        </div>
+                        <h3>Budget Friendly</h3>
+                        <p>Premium quality food at pocket-friendly prices. The full menu ranges from just ₹1 to ₹200.</p>
+                        <div class="feature-glow"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" id="featureCard3">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-emoji-smile-fill"></i>
+                        </div>
+                        <h3>Friendly Staff</h3>
+                        <p>Our warm and welcoming team ensures every visit feels like coming home to friends.</p>
+                        <div class="feature-glow"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" id="featureCard4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                        </div>
+                        <h3>Quick Service</h3>
+                        <p>Get your favorites served fast! Our kitchen is optimized for speed without compromising taste.</p>
+                        <div class="feature-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== GALLERY SECTION ======================== -->
+    <section id="gallery" class="gallery-section section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label" id="galleryLabel">Gallery</div>
+                <h2 class="section-title" id="galleryTitle">A Peek Inside <span class="text-accent">Queen Café</span></h2>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item gallery-item-tall" id="galleryItem1">
+                    <img src="images/real-storefront.png" alt="Queen Cafe storefront">
+                    <div class="gallery-overlay">
+                        <i class="bi bi-zoom-in"></i>
+                        <span>Our Storefront</span>
+                    </div>
+                </div>
+                <div class="gallery-item" id="galleryItem2">
+                    <img src="images/real-cold-coffee.png" alt="Cold coffee specialties">
+                    <div class="gallery-overlay">
+                        <i class="bi bi-zoom-in"></i>
+                        <span>Signature Cold Coffee</span>
+                    </div>
+                </div>
+                <div class="gallery-item" id="galleryItem3">
+                    <img src="images/real-burger.png" alt="Queen Cafe burgers">
+                    <div class="gallery-overlay">
+                        <i class="bi bi-zoom-in"></i>
+                        <span>Gourmet Burgers</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-wide" id="galleryItem4">
+                    <img src="images/real-neon-sign.png" alt="Queen Cafe neon sign">
+                    <div class="gallery-overlay">
+                        <i class="bi bi-zoom-in"></i>
+                        <span>Neon Vibes</span>
+                    </div>
+                </div>
+                <div class="gallery-item" id="galleryItem5">
+                    <img src="images/real-noodles.png" alt="Queen Cafe noodles">
+                    <div class="gallery-overlay">
+                        <i class="bi bi-zoom-in"></i>
+                        <span>Loaded Maggi</span>
+                    </div>
+                </div>
+                <div class="gallery-item" id="galleryItem6">
+                    <img src="images/real-cold-coffee.png" alt="Queen Cafe cold coffee closeup">
+                    <div class="gallery-overlay">
+                        <i class="bi bi-zoom-in"></i>
+                        <span>Cold Coffee Bliss</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== TESTIMONIALS SECTION ======================== -->
+    <section id="testimonials" class="testimonials-section section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="section-label" id="testimonialsLabel">Customer Love</div>
+                <h2 class="section-title" id="testimonialsTitle">What People <span class="text-accent">Say</span></h2>
+                <div class="rating-overview" id="ratingOverview">
+                    <div class="rating-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="rating-text">5.0 out of 5 — based on 29 Google Reviews</span>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" id="testimonialCard1">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"It is a small and cozy cafe. They offer great service and good food items with moderate varieties. The staff is nice and friendly. A perfect place to hangout and unwind during evenings."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">KC</div>
+                            <div>
+                                <strong>kuma -chi</strong>
+                                <span>3 months ago</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" id="testimonialCard2">
+                    <div class="testimonial-card featured">
+                        <div class="testimonial-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Best staff as well as best food 👌 loved the experience of visit ❤️😉 The food quality is amazing and the prices are very reasonable. Highly recommend for anyone looking for a good time!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AA</div>
+                            <div>
+                                <strong>Aadarsh Arya</strong>
+                                <span>4 months ago</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" id="testimonialCard3">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Best food taste and good behaviour with customers... Love their food! This location is highly recommended for delicious burger & Pizza. Probably the best cold coffee in the town ✌️"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SP</div>
+                            <div>
+                                <strong>Subham Pratap</strong>
+                                <span>8 months ago</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CTA / ORDER BANNER ======================== -->
+    <section class="cta-section" id="ctaSection">
+        <div class="cta-bg-pattern"></div>
+        <div class="container text-center">
+            <h2 class="cta-title" id="ctaTitle">Craving Something Delicious?</h2>
+            <p class="cta-subtitle" id="ctaSubtitle">Order now on Swiggy or Zomato, or call us directly!</p>
+            <div class="cta-buttons" id="ctaButtons">
+                <a href="tel:+918926311399" class="btn btn-cta-primary" id="ctaCall">
+                    <i class="bi bi-telephone-fill"></i> Call: 089263 11399
+                </a>
+                <a href="#contact" class="btn btn-cta-outline" id="ctaDirections">
+                    <i class="bi bi-geo-alt-fill"></i> Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CONTACT SECTION ======================== -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="section-label" id="contactLabel">Get in Touch</div>
+                    <h2 class="section-title" id="contactTitle">Visit <span class="text-accent">Queen Café</span></h2>
+                    <p class="section-description" id="contactDesc">Come experience the warmth and flavors of Queen Café. We're located right in front of Kalinga Stadium — easy to find and hard to forget!</p>
+
+                    <div class="contact-info-list">
+                        <div class="contact-info-item" id="contactAddress">
+                            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <strong>Address</strong>
+                                <p>Gate No.2, Kalinga Market, Plot 508,<br>In front of Kalinga Stadium,<br>Near Bhubaneswar Law College,<br>BBSR, Bhubaneswar, Odisha 751012</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item" id="contactPhone">
+                            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p><a href="tel:+918926311399">089263 11399</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item" id="contactHours">
+                            <div class="contact-icon"><i class="bi bi-clock-fill"></i></div>
+                            <div>
+                                <strong>Opening Hours</strong>
+                                <p>Open Daily — 7:00 AM onwards</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item" id="contactOrder">
+                            <div class="contact-icon"><i class="bi bi-bag-check-fill"></i></div>
+                            <div>
+                                <strong>Order Online</strong>
+                                <p>Available on Swiggy & Zomato</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="map-wrapper" id="mapWrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.7!2d85.8185!3d20.2831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDE2JzU5LjIiTiA4NcKwNDknMDYuNiJF!5e0!3m2!1sen!2sin!4v1"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Queen Cafe Location Map">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer-section" id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-brand" id="footerBrand">
+                            <span class="brand-crown">👑</span>
+                            <span class="brand-text">Queen Café</span>
+                        </div>
+                        <p class="footer-tagline">Smile in Every Bite</p>
+                        <p class="footer-desc">Your favorite cozy café in Bhubaneswar. Serving happiness one plate at a time since day one.</p>
+                        <div class="footer-social" id="footerSocial">
+                            <a href="#" aria-label="Instagram" id="socialInstagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Facebook" id="socialFacebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="WhatsApp" id="socialWhatsApp"><i class="bi bi-whatsapp"></i></a>
+                            <a href="tel:+918926311399" aria-label="Phone" id="socialPhone"><i class="bi bi-telephone-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="footer-links" id="footerLinks1">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="footer-heading">Explore</h4>
+                        <ul class="footer-links" id="footerLinks2">
+                            <li><a href="#features">Why Us</a></li>
+                            <li><a href="#testimonials">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="tel:+918926311399">Order Now</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="footer-heading">Stay Updated</h4>
+                        <p class="footer-newsletter-text">Subscribe for exclusive offers and new menu updates!</p>
+                        <form class="footer-newsletter" id="newsletterForm">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email address" aria-label="Email" id="newsletterEmail">
+                                <button class="btn btn-newsletter" type="submit" id="newsletterSubmit">
+                                    <i class="bi bi-send-fill"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="footer-copyright" id="footerCopyright">© 2026 Queen Café, Bhubaneswar. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="footer-made" id="footerMade">Made with <i class="bi bi-heart-fill text-danger"></i> for food lovers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================== BACK TO TOP ======================== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
