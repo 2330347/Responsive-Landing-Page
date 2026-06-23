@@ -21,19 +21,9 @@ A premium café-themed landing page featuring:
 
 ---
 
-## 📸 Project Screenshots
+## 🌟 Home Page Preview
 
-### Hero Section
-![Hero](images/real-storefront.png)
-
-### Signature Cold Coffee
-![Cold Coffee](images/real-cold-coffee.png)
-
-### Queen Special Burger
-![Burger](images/real-burger.png)
-
-### Loaded Maggi
-![Maggi](images/real-noodles.png)
+![Queen Café Home Page](screenshot/home-page.png)
 
 ---
 
