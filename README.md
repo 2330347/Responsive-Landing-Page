@@ -23,7 +23,8 @@ A premium café-themed landing page featuring:
 
 ## 🌟 Home Page Preview
 
-![Queen Café Home Page](screenshot/home-page.png)
+<img src="(https://github.com/2330347/Responsive-Landing-Page/blob/main/home-page.png?raw=true)" width="100%">
+
 
 ---
 
